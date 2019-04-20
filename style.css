@@ -173,5 +173,28 @@ button.ghost{
 }
 
 /* Move Overlay to left */
+.container.right-panel-active .overlay-container {
+    transform:  translate(-100%)
+}
+
+/*Sign up Over Sign In */
+.container.right-panel-active .sign-up-container {
+    transform:  translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+/*Move overlay back to the right */
+.container.right-panel-active .overlay {
+    transform:  translatex(50%);
+}
+.container.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+.container.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}
+
+
+
 
 
